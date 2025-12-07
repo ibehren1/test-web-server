@@ -1,0 +1,49 @@
+services:
+  web-red:
+    build: .
+    ports:
+      - "81:8080"
+    environment:
+      - COLOR=red
+
+  web-orange:
+    build: .
+    ports:
+      - "82:8080"
+    environment:
+      - COLOR=orange
+
+  web-yellow:
+    build: .
+    ports:
+      - "83:8080"
+    environment:
+      - COLOR=yellow
+
+  web-green:
+    build: .
+    ports:
+      - "84:8080"
+    environment:
+      - COLOR=green
+
+  web-blue:
+    build: .
+    ports:
+      - "85:8080"
+    environment:
+      - COLOR=blue
+
+  web-indigo:
+    build: .
+    ports:
+      - "86:8080"
+    environment:
+      - COLOR=indigo
+
+  web-violet:
+    build: .
+    ports:
+      - "87:8080"
+    environment:
+      - COLOR=violet
